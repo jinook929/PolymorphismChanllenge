@@ -31,7 +31,7 @@ class Car {
     }
 
     public String startEngine() {
-        return "Engine started";
+        return "Car started";
     }
 
     public String accelerate() {
@@ -154,6 +154,9 @@ public class Main {
 
         Car car = new Car("Base car", 2);
         System.out.println(car.getName());
+        System.out.println(car.startEngine());
+        System.out.println(car.accelerate());
+        System.out.println(car.brake());
         
         Fit fit = new Fit();
         System.out.println("Name of Car : " + fit.getName());
